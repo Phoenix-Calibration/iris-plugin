@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "iris": {
+      "type": "streamable-http",
+      "url": "https://iris-ai-339343666693.us-central1.run.app/api/mcp"
+    }
+  }
+}

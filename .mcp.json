@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iris": {
+      "type": "http",
+      "url": "https://iris-ai-339343666693.us-central1.run.app/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: "Iris Calibration Operator"
+  short_description: "Manage Iris calibration knowledge"
+  default_prompt: "Use $calibration-operator to find the applicable calibration rule."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "iris"
+      description: "Manage and consult Iris calibration knowledge"
+      transport: "streamable_http"
+      url: "https://iris-ai-339343666693.us-central1.run.app/api/mcp"
+policy:
+  allow_implicit_invocation: true
