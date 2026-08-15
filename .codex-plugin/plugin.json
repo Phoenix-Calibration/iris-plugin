@@ -1,0 +1,37 @@
+{
+  "name": "iris-calibration-operator",
+  "version": "1.0.0",
+  "description": "Manage and consult the calibration knowledge used by Iris.",
+  "author": {
+    "name": "Phoenix Calibration",
+    "url": "https://github.com/Phoenix-Calibration"
+  },
+  "homepage": "https://github.com/Phoenix-Calibration/iris-plugin#readme",
+  "repository": "https://github.com/Phoenix-Calibration/iris-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "calibration",
+    "requirements",
+    "tolerance",
+    "manuals"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Iris Calibration Operator",
+    "shortDescription": "Manage Iris calibration knowledge",
+    "longDescription": "Consult and manage calibration requirements, tolerances, equipment manuals, and evaluation rules through the authenticated Iris service.",
+    "developerName": "Phoenix Calibration",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show which calibration rules apply to this certificate.",
+      "Help me add a scoped calibration requirement.",
+      "Find the tolerance or manual for this equipment."
+    ]
+  }
+}

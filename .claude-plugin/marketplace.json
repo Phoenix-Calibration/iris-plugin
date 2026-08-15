@@ -1,0 +1,15 @@
+{
+  "name": "phoenix-calibration",
+  "owner": {
+    "name": "Phoenix Calibration",
+    "url": "https://github.com/Phoenix-Calibration"
+  },
+  "description": "Private Phoenix Calibration operator plugins.",
+  "plugins": [
+    {
+      "name": "iris-calibration-operator",
+      "source": ".",
+      "description": "Manage and consult the calibration knowledge used by Iris."
+    }
+  ]
+}

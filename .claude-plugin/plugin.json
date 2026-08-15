@@ -1,0 +1,19 @@
+{
+  "name": "iris-calibration-operator",
+  "displayName": "Iris Calibration Operator",
+  "version": "1.0.0",
+  "description": "Manage and consult the calibration knowledge used by Iris.",
+  "author": {
+    "name": "Phoenix Calibration",
+    "url": "https://github.com/Phoenix-Calibration"
+  },
+  "homepage": "https://github.com/Phoenix-Calibration/iris-plugin#readme",
+  "repository": "https://github.com/Phoenix-Calibration/iris-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "calibration",
+    "requirements",
+    "tolerance",
+    "manuals"
+  ]
+}
